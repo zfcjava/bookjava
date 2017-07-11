@@ -1,0 +1,27 @@
+Domain knowledage 是由 domain concept组成
+concept 有它的属性（Attribute）， 之于 class 和 成员的关系
+OOA 就是将 Domain Knowlege 中的domain concept 抽象成类，并以uml进行表示。
+
+例1； coffee 
+概念是一个抽象的东西，但是代表着一类实体。总而言之，在domain knowledge中找到
+concept，就意味着找到了class
+
+例2 嫦娥奔月
+	
+	class ChangE{
+		private String fatherName;
+		private String husbandName;
+		
+		public void eatXianDan(){}
+		public void benYue(){}
+	}
+	
+	class XianDan{
+		private String laiYuan;
+		private String provider;
+
+	}
+	
+	class Moon{
+	
+	}
