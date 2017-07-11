@@ -1,0 +1,13 @@
+今天遇到一个问题：
+	在activity之间传递数据时，在onActivityResult中，获取不到数据，经过反复排查，发现
+
+	@override
+	protected void onBackpressed(){
+		super.onBackpressed(); //
+		setResult（Result_OK,new Intent()）;
+		this.finish();
+	
+	}
+
+	原因是 super.onBackpressed()要放在 this.finish()的后面
+
